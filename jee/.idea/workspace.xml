@@ -7,13 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34520378-cef6-42d2-b786-0d254d2448cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jdbc/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/TestConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/set.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jee.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jee.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jee_war_exploded/WEB-INF/classes/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jee_war_exploded/WEB-INF/classes/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jee/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jee/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserServlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,27 +57,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HelloServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="84" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/program/apache-tomcat-8.5.42/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,14 +106,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="237">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/hello.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/set.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/program/apache-tomcat-8.5.42/lib/jsp-api.jar!/javax/servlet/jsp/JspContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -169,86 +171,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/program/apache-tomcat-8.5.42/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="225" selection-start-line="225" selection-end-line="225" />
-              <folding>
-                <element signature="method#HttpServlet#0;class#HttpServlet#0" />
-                <element signature="method#doGet#0;class#HttpServlet#0" />
-                <element signature="e#1711#1760#1" />
-                <element signature="e#1766#1815#1" />
-                <element signature="method#doHead#0;class#HttpServlet#0" />
-                <element signature="e#2095#2141#1" />
-                <element signature="e#2147#2302#1" />
-                <element signature="method#doPost#0;class#HttpServlet#0" />
-                <element signature="e#2584#2633#1" />
-                <element signature="e#2639#2688#1" />
-                <element signature="method#doPut#0;class#HttpServlet#0" />
-                <element signature="e#2968#3017#1" />
-                <element signature="e#3023#3072#1" />
-                <element signature="method#doDelete#0;class#HttpServlet#0" />
-                <element signature="e#3358#3407#1" />
-                <element signature="e#3413#3462#1" />
-                <element signature="method#getAllDeclaredMethods#0;class#HttpServlet#0" />
-                <element signature="e#3576#3612#1" />
-                <element signature="e#3618#4211#1" />
-                <element signature="e#3825#4168#1" />
-                <element signature="method#doOptions#0;class#HttpServlet#0" />
-                <element signature="e#4699#4954#0" />
-                <element signature="e#5177#5649#1" />
-                <element signature="e#5259#5343#1" />
-                <element signature="e#5391#5441#1" />
-                <element signature="e#5488#5537#1" />
-                <element signature="e#5587#5639#1" />
-                <element signature="e#5703#5741#1" />
-                <element signature="e#5767#5920#1" />
-                <element signature="e#5800#5847#1" />
-                <element signature="e#5853#5910#1" />
-                <element signature="e#5946#6099#1" />
-                <element signature="e#5979#6026#1" />
-                <element signature="e#6032#6089#1" />
-                <element signature="e#6124#6275#1" />
-                <element signature="e#6157#6203#1" />
-                <element signature="e#6209#6265#1" />
-                <element signature="e#6303#6460#1" />
-                <element signature="e#6336#6385#1" />
-                <element signature="e#6391#6450#1" />
-                <element signature="e#6487#6642#1" />
-                <element signature="e#6520#6568#1" />
-                <element signature="e#6574#6632#1" />
-                <element signature="e#6671#6830#1" />
-                <element signature="e#6704#6754#1" />
-                <element signature="e#6760#6820#1" />
-                <element signature="method#doTrace#0;class#HttpServlet#0" />
-                <element signature="e#7259#7438#1" />
-                <element signature="method#service#0;class#HttpServlet#0" />
-                <element signature="e#7949#8649#1" />
-                <element signature="e#8042#8096#1" />
-                <element signature="e#8102#8639#1" />
-                <element signature="e#8162#8259#0" />
-                <element signature="e#8298#8360#0" />
-                <element signature="e#8430#8559#1" />
-                <element signature="e#8565#8625#1" />
-                <element signature="e#8682#8842#1" />
-                <element signature="e#8875#8922#1" />
-                <element signature="e#8954#9000#1" />
-                <element signature="e#9035#9084#1" />
-                <element signature="e#9120#9170#1" />
-                <element signature="e#9204#9252#1" />
-                <element signature="e#9258#9502#1" />
-                <element signature="method#maybeSetLastModified#0;class#HttpServlet#0" />
-                <element signature="e#9647#9778#1" />
-                <element signature="e#9685#9767#1" />
-                <element signature="method#service#1;class#HttpServlet#0" />
-                <element signature="e#9976#10083#0" />
-                <element signature="e#10116#10199#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
@@ -264,6 +186,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -291,6 +214,8 @@
         <option value="$PROJECT_DIR$/src/TestConnectionPool.java" />
         <option value="$PROJECT_DIR$/src/jdbc/TestConnectionPool.java" />
         <option value="$PROJECT_DIR$/src/UserServlet.java" />
+        <option value="$PROJECT_DIR$/web/hello.jsp" />
+        <option value="$PROJECT_DIR$/web/set.jsp" />
       </list>
     </option>
   </component>
@@ -301,9 +226,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-218" />
-    <option name="y" value="66" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="61" />
+    <option name="y" value="28" />
     <option name="width" value="1940" />
     <option name="height" value="923" />
   </component>
@@ -340,7 +265,8 @@
             </path>
             <path>
               <item name="jee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="jee" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -355,7 +281,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563350490958" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563351970530" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -490,15 +416,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563268388995</updated>
-      <workItem from="1563268394384" duration="16599000" />
+      <workItem from="1563268394384" duration="18080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16599000" />
+    <option name="totallyTimeSpent" value="18080000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="61" y="28" width="1940" height="923" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -507,7 +433,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27340424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" weight="0.28031147" />
       <window_info anchor="bottom" id="Database Console" weight="0.32925472" />
@@ -520,7 +446,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5011136" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44705883" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,7 +454,7 @@
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.18070363" />
+      <window_info anchor="right" id="Database" visible="true" weight="0.18031915" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -785,10 +711,31 @@
     <entry file="file://$PROJECT_DIR$/src/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/apache-tomcat-8.5.42/lib/jsp-api.jar!/javax/servlet/jsp/JspContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/set.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
