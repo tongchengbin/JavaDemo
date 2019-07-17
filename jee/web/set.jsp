@@ -15,3 +15,5 @@
     pageContext.setAttribute("cur",cur,pageContext.SESSION_SCOPE);
 %>
 <h1><%=pageContext.getAttribute("cur",pageContext.SESSION_SCOPE)%></h1>
+<%--<--%>
+<h2>${cur}</h2>
