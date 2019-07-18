@@ -6,6 +6,11 @@
 <hibernate-configuration>
 
     <session-factory>
+
+
+
+
+        <!--end-->
         <!-- Database connection settings -->
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="connection.url">jdbc:mysql://47.107.75.121:3306/ssm?characterEncoding=UTF-8</property>

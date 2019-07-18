@@ -9,6 +9,7 @@
             <generator class="native">
             </generator>
         </id>
+        <version name="version" column="ver" type="int"/>
         <property name="name" />
         <property name="age" />
         <property name="sex" />
