@@ -1107,10 +1107,9 @@
       <Collation>utf8_general_ci</Collation>
     </table>
     <table id="277" parent="3" name="test"/>
-    <table id="278" parent="3" name="user">
-      <Collation>utf8_general_ci</Collation>
-    </table>
-    <column id="279" parent="275" name="seckill_id">
+    <table id="278" parent="3" name="user"/>
+    <table id="279" parent="3" name="user2"/>
+    <column id="280" parent="275" name="seckill_id">
       <Position>1</Position>
       <Comment>商品库存id</Comment>
       <DataType>bigint(20)|0s</DataType>
@@ -1118,35 +1117,35 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="280" parent="275" name="name">
+    <column id="281" parent="275" name="name">
       <Position>2</Position>
       <Comment>商品名称</Comment>
       <DataType>varchar(120)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="275" name="number">
+    <column id="282" parent="275" name="number">
       <Position>3</Position>
       <Comment>商品数量</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="275" name="start_time">
+    <column id="283" parent="275" name="start_time">
       <Position>4</Position>
       <Comment>秒杀开启时间</Comment>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="283" parent="275" name="end_time">
+    <column id="284" parent="275" name="end_time">
       <Position>5</Position>
       <Comment>秒杀结束时间</Comment>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="284" parent="275" name="create_time">
+    <column id="285" parent="275" name="create_time">
       <Position>6</Position>
       <Comment>创建时间</Comment>
       <DataType>timestamp|0s</DataType>
@@ -1154,38 +1153,38 @@
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="285" parent="275" name="idx_start_time">
+    <index id="286" parent="275" name="idx_start_time">
       <ColNames>start_time</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="286" parent="275" name="idx_end_time">
+    <index id="287" parent="275" name="idx_end_time">
       <ColNames>end_time</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="287" parent="275" name="idx_create_time">
+    <index id="288" parent="275" name="idx_create_time">
       <ColNames>create_time</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="288" parent="275" name="PRIMARY">
+    <key id="289" parent="275" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>seckill_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="289" parent="276" name="seckill_id">
+    <column id="290" parent="276" name="seckill_id">
       <Position>1</Position>
       <Comment>秒杀商品id</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="290" parent="276" name="user_phone">
+    <column id="291" parent="276" name="user_phone">
       <Position>2</Position>
       <Comment>用户手机号</Comment>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="291" parent="276" name="status">
+    <column id="292" parent="276" name="status">
       <Position>3</Position>
       <Comment>状态显示 -1 无效 0成功 1已付款</Comment>
       <DataType>tinyint(4)|0s</DataType>
@@ -1193,7 +1192,7 @@
       <DefaultExpression>-1</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="292" parent="276" name="create_time">
+    <column id="293" parent="276" name="create_time">
       <Position>4</Position>
       <Comment>创建时间</Comment>
       <DataType>timestamp|0s</DataType>
@@ -1201,62 +1200,94 @@
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="293" parent="276" name="idx_create_time">
+    <index id="294" parent="276" name="idx_create_time">
       <ColNames>create_time</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="294" parent="276" name="PRIMARY">
+    <key id="295" parent="276" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>seckill_id
 user_phone</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="295" parent="277" name="f">
+    <column id="296" parent="277" name="f">
       <Position>1</Position>
       <DataType>float(5,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="277" name="d">
+    <column id="297" parent="277" name="d">
       <Position>2</Position>
       <DataType>double(5,2 digit)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="297" parent="277" name="de">
+    <column id="298" parent="277" name="de">
       <Position>3</Position>
       <DataType>decimal(5,2 digit) unsigned|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="298" parent="277" name="PRIMARY">
+    <key id="299" parent="277" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>f</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="299" parent="278" name="id">
+    <column id="300" parent="278" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="300" parent="278" name="name">
+    <column id="301" parent="278" name="name">
       <Position>2</Position>
-      <DataType>varchar(20)|0s</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="301" parent="278" name="age">
+    <column id="302" parent="278" name="age">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="302" parent="278" name="sex">
+    <column id="303" parent="278" name="sex">
       <Position>4</Position>
-      <DataType>varchar(10)|0s</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="303" parent="278" name="PRIMARY">
+    <column id="304" parent="278" name="ver">
+      <Position>5</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="305" parent="278" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
+    <column id="306" parent="279" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="307" parent="279" name="name">
+      <Position>2</Position>
+      <DataType>tinytext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="308" parent="279" name="age">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="309" parent="279" name="sex">
+      <Position>4</Position>
+      <DataType>tinytext|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="310" parent="279" name="ver">
+      <Position>5</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
   </database-model>
 </dataSource>

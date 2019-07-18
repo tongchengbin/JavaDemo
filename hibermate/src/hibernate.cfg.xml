@@ -38,8 +38,12 @@
         <property name="current_session_context_class">thread</property>
         <property name="show_sql">true</property>
         <property name="hbm2ddl.auto">update</property>
+
+        <!--xml方式-->
         <mapping resource="User.hbm.xml"/>
 
+        <!--注解方式-->
+        <mapping class="User2" />
 
 
 

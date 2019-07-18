@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4921b15-ee6e-4e2d-80bb-e1b8fa2f5dbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/User2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/93a560e2-c416-4b78-89d0-7254ecbece06.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/93a560e2-c416-4b78-89d0-7254ecbece06.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibermate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hibermate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibermate/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibermate/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hibermate/User.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibermate/User.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hibermate/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibermate/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hibermate/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hibermate/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,15 +75,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="das://93a560e2-c416-4b78-89d0-7254ecbece06/schema/ssm/table/seckill">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/User2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hibermate.iml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UserServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+            <state relative-caret-position="690">
+              <caret line="30" column="19" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="30" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#176#177#0" expanded="true" />
@@ -101,11 +132,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+            <state relative-caret-position="322">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/User2Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,33 +156,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../jar/mysql-connector-java-8.0.16.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1334">
+            <state relative-caret-position="445">
               <caret line="72" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../jar/mysql-connector-java-8.0.16.jar!/com/mysql/cj/jdbc/ClientPreparedStatement.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15065">
-              <caret line="715" column="11" selection-start-line="715" selection-start-column="11" selection-end-line="715" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../jar/hibernate3.jar!/org/hibernate/Session.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/93a560e2-c416-4b78-89d0-7254ecbece06/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -150,6 +170,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getid</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -164,7 +189,10 @@
         <option value="$PROJECT_DIR$/src/User.hbm.xml" />
         <option value="$PROJECT_DIR$/src/User.java" />
         <option value="$PROJECT_DIR$/src/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/Seckill.java" />
+        <option value="$PROJECT_DIR$/src/User2.java" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/User2Test.java" />
       </list>
     </option>
   </component>
@@ -204,9 +232,9 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563431696589" />
-    <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jar/c3p0-0.9.1.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563432103462" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -231,9 +259,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserTest">
+  <component name="RunManager" selected="Application.User2Test">
     <configuration name="TestHibernate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestHibernate" />
+      <module name="hibermate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="User2Test" />
       <module name="hibermate" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -248,6 +283,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.User2Test" />
         <item itemvalue="Application.UserTest" />
         <item itemvalue="Application.TestHibernate" />
       </list>
@@ -265,7 +301,7 @@
       <updated>1563355188055</updated>
       <workItem from="1563355204183" duration="97000" />
       <workItem from="1563355352179" duration="4184000" />
-      <workItem from="1563414360791" duration="6438000" />
+      <workItem from="1563414360791" duration="6880000" />
     </task>
     <task id="LOCAL-00001" summary="hibermate 懒加载">
       <created>1563417568474</created>
@@ -281,18 +317,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563431269390</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加c3p0 连接池配置">
+      <created>1563431722702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563431722702</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10719000" />
+    <option name="totallyTimeSpent" value="11161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.71001756" visible="true" weight="0.18656716" />
-      <window_info id="Structure" order="1" sideWeight="0.28998244" side_tool="true" visible="true" weight="0.18656716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7109634" visible="true" weight="0.18656716" />
+      <window_info id="Structure" order="1" sideWeight="0.28903654" side_tool="true" visible="true" weight="0.18656716" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -302,7 +345,7 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36636972" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23830736" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,7 +357,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32962137" />
+      <window_info anchor="bottom" id="Database Console" order="14" visible="true" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -332,20 +375,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hibermate 懒加载" />
     <MESSAGE value="乐观锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="乐观锁" />
+    <MESSAGE value="添加c3p0 连接池配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加c3p0 连接池配置" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/example/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -356,13 +393,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../jar/mysql-connector-java-8.0.16.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
@@ -383,13 +413,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/93a560e2-c416-4b78-89d0-7254ecbece06/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://93a560e2-c416-4b78-89d0-7254ecbece06/schema/ssm/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ehcache.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -408,15 +431,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/User.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hibermate.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jar/mysql-connector-java-8.0.16.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/User.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -435,10 +458,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Seckill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://93a560e2-c416-4b78-89d0-7254ecbece06/schema/ssm/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://93a560e2-c416-4b78-89d0-7254ecbece06/schema/ssm/table/seckill">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        <state relative-caret-position="690">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="30" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#176#177#0" expanded="true" />
@@ -447,10 +522,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/User2Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        <state relative-caret-position="506">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
