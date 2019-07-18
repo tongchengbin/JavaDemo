@@ -5,7 +5,7 @@ import org.hibernate.cfg.Configuration;
 public class UserTest {
 
     public static void main(String[] args) {
-        test3();
+        test2();
     }
 
     static void test2(){
