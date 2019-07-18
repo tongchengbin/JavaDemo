@@ -13,8 +13,11 @@ public class UserTest {
         User p = (User)s.load(User.class, 1);
         System.out.println("log1");
         System.out.println(p.getName());
+
+
+        User p2 = (User)s.load(User.class, 1);
         System.out.println("log2");
-        System.out.println(p.getId());
+        System.out.println(p2.getId());
 
         s.getTransaction().commit();
         s.close();
